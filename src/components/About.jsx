@@ -40,7 +40,7 @@ function About() {
               </div>
             ))}
 
-            <h4 className="font-sans font-normal text-xl mb-4 rounded-md px-2 py-1 outline border-black border-[0px] inline-block ">
+            <h4 className="font-Garamond font-normal text-2xl mb-4 rounded-md px-2 py-1 outline border-black border-[0px] inline-block ">
               FrameWork
             </h4>
 
