@@ -4,8 +4,9 @@ import img1 from "../assets/img/contact.png";
 import img2 from "../assets/img/emailaddress.svg";
 import img3 from "../assets/img/download.png";
 import { MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
-function Contect() {
+function Contact() {
   return (
     <>
       <div className="mt-24  h-screen  flex flex-col mb-9  ">
@@ -37,9 +38,14 @@ function Contect() {
           <div className=" flex  flex-col items-center md:ml-8 md:mr-8">
             <img src={img3} alt="Dowanload" width="100" height="100" />
             <p className="font-Arapey text-2xl">DOWNLOAD RESUME</p>
-            <p className="font-Titillium hover:text-blue-600 hover:underline">
-              resume link
-            </p>
+            <Link
+              to="https://drive.google.com/file/d/14iceIshEoP-E5SCDr3oW3M05qHeaVYB-/view?usp=sharing"
+              target="_black"
+            >
+              <p className="font-Titillium hover:text-blue-600 hover:underline">
+                resume link
+              </p>
+            </Link>
           </div>
         </div>
       </div>
@@ -47,4 +53,4 @@ function Contect() {
   );
 }
 
-export default Contect;
+export default Contact;

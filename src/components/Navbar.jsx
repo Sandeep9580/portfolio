@@ -78,7 +78,7 @@ function Navbar() {
 
               <li>
                 <NavLink
-                  to="/Contect"
+                  to="/Contact"
                   className={({ isActive }) =>
                     ` font-mullish py-7 cursor-pointer
                   transition-all duration-200

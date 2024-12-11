@@ -11,7 +11,7 @@ import {
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Resume from "./components/Resume.jsx";
-import Contect from "./components/Contect.jsx";
+import Contact from "./components/Contact.jsx";
 import Message_me from "./components/Message_me.jsx";
 
 const router = createBrowserRouter(
@@ -20,7 +20,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="About" element={<About />} />
       <Route path="Resume" element={<Resume />} />
-      <Route path="Contect" element={<Contect />} />
+      <Route path="Contact" element={<Contact />} />
       <Route path="Message_me" element={<Message_me />} />
     </Route>
   )
