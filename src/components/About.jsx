@@ -17,7 +17,7 @@ function About() {
             /> */}
             <div>
               <p>
-                <b>Job:</b> Web Developer
+                <b>Profile:</b> Web Developer
               </p>
             </div>
           </div>
@@ -27,7 +27,7 @@ function About() {
             <h4 className="font-Garamond font-medium text-2xl mb-4 text-center">
               Skills
             </h4>
-            <h4 className="font-Garamond font-normal text-xl mb-4 ">
+            <h4 className="font-Garamond font-normal text-2xl mb-4 rounded-md px-2 py-1 outline border-black border-[0px] inline-block  ">
               Language Skill
             </h4>
 
@@ -40,7 +40,9 @@ function About() {
               </div>
             ))}
 
-            <h4 className="font-sans font-normal text-xl mb-4 ">FrameWork</h4>
+            <h4 className="font-sans font-normal text-xl mb-4 rounded-md px-2 py-1 outline border-black border-[0px] inline-block ">
+              FrameWork
+            </h4>
 
             {["Reactjs ", "Nextjs"].map((skill) => (
               <div className="my-3" key={skill}>
@@ -88,7 +90,8 @@ function About() {
               Observational skills, Knowledge of Web Fundamentals
             </p>
             <p>
-              <b>Hobby:</b> Traveling, Coding, Web Design, Gaming
+              <b>Hobby:</b> Travelling, Coding, Web Designing , Web development,
+              Gaming
             </p>
           </div>
         </div>

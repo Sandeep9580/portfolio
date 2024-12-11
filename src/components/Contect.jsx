@@ -20,10 +20,7 @@ function Contect() {
 
         <div className="flex flex-col  items-center m-auto justify-cente md:flex-row md:justify-around gap-y-5 md:mt-12 mb-4">
           <div className="text-center  flex  flex-col items-center md:ml-8 md:mr-8">
-            <MapPin
-              size="100"
-              className="bg-gradient-to-t from-blue-500 to-teal-400"
-            />
+            <MapPin size="100" className="" />
             <p className="font-Arapey text-2xl">Address</p>
             <p className="font-Titillium">Akbarpur Amberdkar nagar</p>
           </div>
