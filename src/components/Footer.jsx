@@ -115,9 +115,9 @@ export default function Footer() {
               to="/"
               className="hover:text-blue-600 hover:underline text-white ml-1 "
             >
-              Sandeep modanwal
+              Sandeep Modanwal
             </Link>
-            . All Rights Reserved.
+            . All rights are reserved.
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             <Link to="#" className="text-gray-500 hover:text-gray-900">
