@@ -86,7 +86,7 @@ function Navbar() {
                   relative group hidden lg:block`
                   }
                 >
-                  Contect
+                  Contact
                   <div
                     className="absolute bottom-0 w-full h-1 bg-blue-500 hidden group-hover:block
            transition-all duration-200 rounded-sm"
